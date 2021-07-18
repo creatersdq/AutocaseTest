@@ -25,7 +25,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Chapter13" options="-extdirs C:\Users\sundaqing\IdeaProjects\AutocaseTest\Chapter13" />
+      <module name="Chapter13" options="-extdirs C:\Users\sundaqing\idea1\AutocaseTest\Chapter13" />
     </option>
   </component>
 </project>
