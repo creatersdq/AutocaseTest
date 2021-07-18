@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.course">
+    <!--获取用户信息sql-->
+    <select id="resultLists" parameterType="com.course.model.BncMsgParaEntity" resultType="com.course.model.BncMsgEntity">
+        select * from  t_bnc_msg
+        where receive_org_code=#{receive_org_code}
+    </select>
+
+</mapper>
+
+

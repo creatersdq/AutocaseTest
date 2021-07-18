@@ -1,0 +1,13 @@
+com\course\utils\ConfigFile.class
+com\course\model\InterfaceName.class
+com\course\config\ExtentTestNGIReporterListener.class
+com\course\model\bncqueryTest.class
+com\course\model\HttpResult.class
+com\course\config\TestConfig.class
+com\course\utils\DataBasicUtils.class
+com\course\utils\HttpClientUtil.class
+com\course\config\ExtentTestNGIReporterListener$1.class
+com\course\model\bnc_msg.class
+com\course\model\LoginCase.class
+com\course\cases\TestDemo1.class
+com\course\model\BncMsgEntity.class

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mmybatiss" />
+        <module name="httpClient" />
+        <module name="mytestmodule" />
+        <module name="sspringbboot" />
+        <module name="report" />
+        <module name="Charpter12tec" />
+        <module name="testNg" />
+        <module name="Chapter13" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Chapter6" target="1.6" />
+      <module name="springBoot" target="1.5" />
+      <module name="testmodule" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Chapter13" options="-extdirs C:\Users\sundaqing\IdeaProjects\AutocaseTest\Chapter13" />
+    </option>
+  </component>
+</project>

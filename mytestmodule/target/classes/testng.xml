@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="BNC接口集合">
+    <test name="查询在线通知接口">
+        <classes>
+            <class name="com.course.cases.TestDemo1"></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.course.config.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

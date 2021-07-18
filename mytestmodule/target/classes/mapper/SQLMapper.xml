@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 命名空间mapper,如果有多个mapper文件，这个必须唯一 -->
+<mapper namespace="com.course.model">
+
+
+    <!--获取在线通知列表实际
+    mybatitis-mapper文件
+    id可以自定义，主要要和sqlsession.selectone保持一致
+    -->
+
+    <select id="acceptQueryMsgPage" parameterType="com.course.model.bncqueryTest" resultType="com.course.model.bnc_msg">
+        select * from t_bnc_msg
+        where receive_org_code =#{receiveorgcode};
+    </select>
+
+    <!--获取在线通知列表case-->
+    <select id="acceptQueryMsgPageCase" parameterType="Integer" resultType="com.course.model.bncqueryTest">
+        select * from t_queryMsg_test_case
+        where id=#{id};
+    </select>
+
+</mapper>
